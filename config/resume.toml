@@ -8,9 +8,11 @@ description = "SSC - 91.80%"
 [[education]]
 title = "Dr. J. K. Wani Jr. College, Dhule"
 timeline = "2019 — 2020"
-description = "HSC (PCM) - 77.69, 
-MHTCET - 97.11%ile, 
-JEE Mains - 93.61%ile"
+description = """
+  HSC (PCM) - 77.69,
+  MHTCET - 97.11%ile,
+  JEE Mains - 93.61%ile
+"""
 
 [[education]]
 title = "Vishwakarma Institute of Information Technology, Pune"
