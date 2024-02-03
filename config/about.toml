@@ -1,5 +1,5 @@
-name = "Niraj Amrutkar!"
-rol = "Student | Computer Science'24 "
+name = "Niraj Amrutkar"
+rol = "Student | Computer Science' 24 "
 email = "nirajamr03@gmail.com"
 phone = "(+91) 9960641238"
 # birthday = "April 21, 2003"
@@ -8,7 +8,9 @@ avatar = "./config/assets/avatars/my-avatar.png"
 username = "Niraj2003" # <-- github user name
 googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.43097636747!2d73.55110478277649!3d18.52436076726713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sbd!4v1706903798846!5m2!1sen!2sbd" 
 presentation = """
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+Hello! I'm a passionate BTech student with a keen interest in software development and problem-solving. 
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+Proficient in C++, Java, and front-end technologies like ReactJS, I'm currently interning as a Software Developer at NxtPe, working with Spring, Springboot, and Postgresql. 
+
+Eager to learn and grow in a dynamic environment, I'm enthusiastic about making meaningful contributions to the field.
 """

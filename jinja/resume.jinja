@@ -25,9 +25,11 @@
 
         <span>{{education.timeline}}</span>
 
-        <p class="timeline-text">
-          {{education.description}}
-        </p>
+          {% for line in education.description.split('\n') %}
+          {% if line.strip() %}
+          <p class="timeline-text">{{ line }}</p>
+          {% endif %}
+          {% endfor %}
 
       </li>
 
@@ -69,39 +71,6 @@
 
   </section>
 
-  <!-- Languages -->
-  {% if resume.languages.enabled %}
-  <section class="skill">
-
-    <h3 class="h3 skills-title">{{resume.languages.title}}</h3>
-
-    <ul class="skills-list content-card">
-
-      {% for language in resume.language %}
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">{{language.title}}</h5>
-          {% if resume.languages.show_value %}
-          <data value="{{language.value[:-1]}}">{{language.value}}</data>
-          {% endif %}
-        </div>
-        {% if resume.languages.show_bar %}
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: {{language.value}};"></div>
-        </div>
-        {% endif %}
-      </li>
-
-      {% endfor %}
-
-    </ul>
-
-  </section>
-  <br>
-  {% endif %}
-
-
   <!-- My Skills -->
 
   {% if resume.skills.enabled %}
@@ -132,6 +101,38 @@
     </ul>
 
   </section>
+  {% endif %}
+
+    <!-- Languages -->
+  {% if resume.languages.enabled %}
+  <section class="skill">
+
+    <h3 class="h3 skills-title">{{resume.languages.title}}</h3>
+
+    <ul class="skills-list content-card">
+
+      {% for language in resume.language %}
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">{{language.title}}</h5>
+          {% if resume.languages.show_value %}
+          <data value="{{language.value[:-1]}}">{{language.value}}</data>
+          {% endif %}
+        </div>
+        {% if resume.languages.show_bar %}
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: {{language.value}};"></div>
+        </div>
+        {% endif %}
+      </li>
+
+      {% endfor %}
+
+    </ul>
+
+  </section>
+  <br>
   {% endif %}
 
 </article>

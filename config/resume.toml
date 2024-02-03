@@ -3,21 +3,28 @@
 [[education]]
 title = "Jaihind High school, Dhule"
 timeline = "2017 — 2018"
-description = "SSC - 91.80%"
+description = """
+Secondary School Certificate
+Board - 91.80%
+"""
 
 [[education]]
 title = "Dr. J. K. Wani Jr. College, Dhule"
 timeline = "2019 — 2020"
 description = """
-  HSC (PCM) - 77.69,
-  MHTCET - 97.11%ile,
+  High School Certificate (Physics-Chemistry-Mathematics)
+  Board- 77.69%
+  MHTCET - 97.11%ile
   JEE Mains - 93.61%ile
 """
 
 [[education]]
 title = "Vishwakarma Institute of Information Technology, Pune"
-timeline = "2021 — 2024"
-description = "CGPA - 9.23"
+timeline = "2020 — 2024"
+description = """
+B.Tech in Information Technology
+CGPA - 9.23
+"""
 
 
 ############## Experience config ################
@@ -54,8 +61,25 @@ title = "Data Structure and Algorithm"
 value = "80%"
 
 [[skill]]
-title = "WordPress"
+title = "C, C++, Java, Python"
 value = "50%"
+
+[[skill]]
+title = "Object Oriented Programming"
+value = "50%"
+
+[[skill]]
+title = "Git, GitHub"
+value = "50%"
+
+[[skill]]
+title = "Database, RDBMS, MySQL"
+value = "50%"
+
+[[skill]]
+title = "Machine Learning"
+value = "50%"
+
 
 ############## Language config ##################
 #################################################
@@ -71,4 +95,8 @@ value = "60%"
 
 [[language]]
 title = "Hindi"
+value = "50%"
+
+[[language]]
+title = "Marathi"
 value = "50%"
